@@ -1,0 +1,34 @@
+  body{
+    background: url(../img/calculator.jpg);
+    position:center;
+    background-attachment: cover;
+    background-size: cover;
+  }
+
+  header {
+    width: 100%;
+    height: 112px;
+    background: rgba(68, 31, 68, 0.5);
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .logo img {
+    padding-top: 15px;
+  }
+
+  .nav {
+    float: left;
+  }
+
+  .botones {
+    padding-top: 150px;
+    padding-left: 114px;
+  }
+
+  .botones a {
+    padding: 53px;
+    margin-left:11px;
+  }
