@@ -11,39 +11,6 @@
 
   <title>Calificaciones</title>
 </head>
-
-  <!--El archivo grades.html representa un programa JavaScript
-  que calcula la letra asociada con una calificación numérica
-   proporcionada por el usuario. El programa generará la letra
-   apropiada basada en los siguientes parámetros:
-
-
-  A → grado numérico> = 90
-  B → grado numérico> = 80
-  C → grado numérico> = 70
-  NP → de lo contrario (No Presento)
-
-
-  <script>
-
-        function grades (a) {
-
-        if (a >= 90){
-          console.log("Grado númerico A")
-        } else if (a >= 80 && a <= 89) {
-          console.log("Grado númerico B")
-        } else if(a >= 70 && a <= 79){
-          console.log("Grado númerico C")
-        } else {
-          console.log("No presento NP")
-        }
-        }
-
-        grades(72)
-
-      -->
-
-  </script>
   <body>
     <header>
       <div class="container">
@@ -53,6 +20,7 @@
                 <img src="img/uc.gif" alt="">
               </div>
               <div class="nav col s8"></div>
+                <h1>GRADES</h1>
             </div>
           </div>
         </<header>
@@ -71,16 +39,18 @@
       </div>
 
       <section class="grades">
-        <input id "numero" type="number" placeholder="numero mayor de 70">
-        <button>
-          Calificación
-        </button>
+        <input id="numero" type="number" placeholder="Numero mayor de 70">
       </section>
-
+      <div class="boton">
+      <button onclick="grades()">
+        Calificación
+      </button>
+      </div>
 
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
       <!-- Compiled and minified JavaScript -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+     <script src="js/grades.js"></script>
     </body>
 </html>
