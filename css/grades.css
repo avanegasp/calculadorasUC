@@ -32,3 +32,10 @@ header {
   padding: 53px;
   margin-left:11px;
 }
+
+/*comienzo grades*/
+.grades{
+  margin: auto;
+  width: 40%;
+  padding-top: 100px;
+}

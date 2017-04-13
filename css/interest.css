@@ -32,3 +32,20 @@ header {
   padding: 53px;
   margin-left:11px;
 }
+
+/*Calculador*/
+
+#contenido{
+  width: 70%;
+  margin: auto;
+  background: yellowgreen;
+}
+
+#contenido input {
+  font-size: 26px;
+}
+
+#contenido button {
+  padding: 5px;
+  
+}
