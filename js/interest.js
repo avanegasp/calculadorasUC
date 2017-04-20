@@ -1,37 +1,22 @@
-var total = 0;
 
-function convertidor(){
-  var valorInicial = document.getElementById('valorInicial').value
-  var años = document.getElementById('años').value
-  var tasa= 0.18;
-  var total = valorInicial * tasa * años;
+  function valorInicial(){
 
-  return alert(total + " PESOS")
-};
+    var valor=document.getElementById("valorInicial").value;
+  };
 
-/*
+  function anos(){
+    var anitos = document.getElementById("anos").value;
+  };
 
-    let valorInicial= parseInt(prompt("ingrese el valor Inicial"));
-    let años = parseInt(prompt("ingrese los años"));;
-    let tasa = 0.18;
-    let total = valorInicial * tasa * años;
+  function tasa(){
+    var tasaInicial = document.getElementById("tasa").value / 100;
+  }
 
-    let convertidor = (valorInicial, años)=> total + " pesos"
+  function convertidor (){
+    var valor=document.getElementById("valorInicial").value;
+    var anitos = document.getElementById("anos").value;
+    var tasaInicial = document.getElementById("tasa").value / 100;
 
-    console.log(`el valor inicial es ${valorInicial}, ha ${años} año(s), el valor que debo pagar es ${total} pesos anualmente`)
-
-
-"Introduzca el valor inicial"
-"Introduzca la tasa (valor porcentual)"
-"Ingrese el número de años"
-    let convertidor = (valorInicial, años)=> total + " pesos";
-
-    let valorInicial= document.getElementById('valorInicial').value;
-    let años = document.getElementById('años').value;
-    let tasa = 0.18;
-    let total =valorInicial * tasa * años;
-
-
-  console.log(`el valor inicial es ${valorInicial}, ha ${años} año(s), el valor que debo pagar es ${total} pesos anualmente`)
-
-*/
+    var resultado= valor * tasaInicial / anitos;
+    document.getElementById("total").value= "$" + resultado + " pesos de intereses durante " + anitos + " años";
+  }

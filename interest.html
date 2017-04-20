@@ -7,6 +7,7 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Play|Stint+Ultra+Expanded" rel="stylesheet">
 
   <link rel="stylesheet" href="css/interest.css">
 
@@ -21,7 +22,7 @@
               <img src="img/uc.gif" alt="">
             </div>
             <div class="nav col s8"></div>
-            <h1>Interest</h1>
+            <h1>INTEREST</h1>
           </div>
         </div>
       </<header>
@@ -30,22 +31,22 @@
         <div class="">
           <div class="fixed-action-btn">
             <a class="btn-floating btn-large red waves-effect waves-light">
-              <i class="material-icons">fast_rewind</i>
+              <i class="material-icons" title="Menú">fast_rewind</i>
             </a>
             <ul>
-              <li class="btn-floating green"><a href="grades.html"><i class="material-icons">spellcheck</i></a></li>
-              <li class="btn-floating blue"><a href="index.html"><i class="material-icons">input</i></a></li>
+              <li class="btn-floating green"><a href="grades.html" title="Grades"><i class="material-icons">spellcheck</i></a></li>
+              <li class="btn-floating blue"><a href="index.html" title="Home"><i class="material-icons">input</i></a></li>
             </ul>
           </div>
         </div>
       </div>
 
 <!-- CalculInterest-->
-      <div id="contenido">
-        <input id="valorInicial" type="number" placeholder="Valor inicial">
-        <input class="tasa" type="text" placeholder="Tasa al 0.18">
-        <input id="años" type="number" placeholder="Años">
-        <input id="total" type="text" placeholder="TOTAL a pagar anualmente">
+      <div name="inte" id="contenido">
+        <input id="valorInicial" type="number" value="inicial Pago" placeholder="Introduzca el Valor inicial" onclick="valorInicial()">
+        <input id="tasa" type="number" value="tasa Pago" placeholder="Introduzca la tasa" onclick="tasa()">
+        <input id="anos" type="number" value="años Pago" placeholder="Ingrese el Número de Años" onclick="anos()">
+        <input id="total" type="text" value="TOTAL" placeholder="TOTAL a pagar anualmente">
 
       </div>
       <div class="boton">

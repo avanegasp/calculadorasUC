@@ -43,13 +43,16 @@ header {
 /*Calculador*/
 
 #contenido{
-  width: 30%;
+  width: 36%;
   margin: auto;
-  background: rgba(234, 164, 12, 0.7);
+  background: rgba(236, 63, 8, 0.7);
+  margin-top: 70px;
 }
 
 #contenido input {
-  font-size: 26px;
+  font-size: 19px;
+  margin: auto;
+  font-family: 'Play', sans-serif;
 }
 
 #contenido button {
@@ -62,4 +65,9 @@ header {
 }
 button{
   padding: 13px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Stint Ultra Expanded', cursive;
 }

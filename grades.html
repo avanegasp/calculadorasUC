@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Play|Stint+Ultra+Expanded" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/grades.css">
 
@@ -28,11 +29,11 @@
         <div class="section">
             <div class="fixed-action-btn">
                 <a class="btn-floating btn-large red waves-effect waves-light">
-                  <i class="material-icons">fast_rewind</i>
+                  <i class="material-icons" title="Menú">fast_rewind</i>
                 </a>
                 <ul>
-                  <li class="btn-floating green"><a href="interest.html"><i class="material-icons">trending_up</i></a></li>
-                    <li class="btn-floating blue"><a href="index.html"><i class="material-icons">input</i></a></li>
+                  <li class="btn-floating green"><a href="interest.html" title="Interest"><i class="material-icons">trending_up</i></a></li>
+                    <li class="btn-floating blue"><a href="index.html" title="Home"><i class="material-icons">input</i></a></li>
                   </ul>
               </div>
           </div>
@@ -43,20 +44,22 @@
         <br>
         <br>
           <table>
+            <h3>Ingresa tu calificación:</h3>
             <tr>
               <td colspan="5"><input type="text" name="valores" id="valores" onkeypress=""></td>
             </tr>
 
-            <tr>
+            <!-- <tr>
               <td><input type="button" value="70" id="setenta" onclick="setentas()"></td>
               <td><input type="button" value="80" id="ochenta" onclick="ochentas()"></td>
               <td><input type="button" value="90" id="noventa" onclick="noventas()"></td>
               <td><input type="button" value="No Presentó" id="np" onclick="noPresento()"></td>
-            </tr>
+            </tr> -->
 
             <tr>
               <td></td>
               <td></td>
+              <td><input type="button" id="calificacion" value="Calificar" onclick="pos()"></td>
               <td><input type="button" id="calificacion" value="Borrar" onclick="eliminar()"></td>
             </tr>
 
