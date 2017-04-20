@@ -40,6 +40,15 @@ header {
 }
 
 /*comienzo grades*/
+table{
+  width: 20%;
+  margin: auto;
+}
+
+input{
+  padding: 8px;
+}
+
 .grades{
   background: rgba(227, 7, 54, 0.3);
   margin: auto;

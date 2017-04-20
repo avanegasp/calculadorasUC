@@ -1,27 +1,24 @@
-/*
-  <!--El archivo grades.html representa un programa JavaScript
-  que calcula la letra asociada con una calificación numérica
-   proporcionada por el usuario. El programa generará la letra
-   apropiada basada en los siguientes parámetros:
 
+        function setentas(){
+          var numSetenta = document.getElementById("setenta").value//="Grado númerico C"
+          document.fo.valores.value = numSetenta="Grado númerico C";
+        };
 
-  A → grado numérico> = 90
-  B → grado numérico> = 80
-  C → grado numérico> = 70
-  NP → de lo contrario (No Presento)
-  */
+        function ochentas() {
+          var numOchenta = document.getElementById("ochenta").value//="Grado númerico B"
+          document.fo.valores.value = numOchenta="Grado númerico B";
+        };
 
+        function noventas() {
+          var numNoventa = document.getElementById("noventa").value//="Grado númerico A"
+          document.fo.valores.value = numNoventa="Grado númerico A";
+        };
 
-        function grades () {
-          var gradoNumerico = document.getElementById("numero").value
+        function noPresento() {
+          var noPresento = document.getElementById("np").value//="No presentó"
+          document.fo.valores.value = "No Presento";
+        };
 
-        if (gradoNumerico >= 90){
-          alert("Grado númerico A")
-        } else if (gradoNumerico >= 80 && gradoNumerico <= 89) {
-          alert("Grado númerico B")
-        } else if(gradoNumerico >= 70 && gradoNumerico <= 79){
-          alert("Grado númerico C")
-        } else {
-          alert("No presento NP")
-        }
-      };
+        function eliminar(){
+          document.fo.valores.value="";
+        };

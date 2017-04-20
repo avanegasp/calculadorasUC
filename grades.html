@@ -38,14 +38,31 @@
           </div>
       </div>
 
-      <section class="grades">
-        <input id="numero" type="number" placeholder="Numero mayor de 70">
-      </section>
-      <div class="boton">
-      <button onclick="grades()">
-        Calificación
-      </button>
-      </div>
+      <form name= "fo" action="">
+        <br>
+        <br>
+        <br>
+          <table>
+            <tr>
+              <td colspan="5"><input type="text" name="valores" id="valores" onkeypress=""></td>
+            </tr>
+
+            <tr>
+              <td><input type="button" value="70" id="setenta" onclick="setentas()"></td>
+              <td><input type="button" value="80" id="ochenta" onclick="ochentas()"></td>
+              <td><input type="button" value="90" id="noventa" onclick="noventas()"></td>
+              <td><input type="button" value="No Presentó" id="np" onclick="noPresento()"></td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td></td>
+              <td><input type="button" id="calificacion" value="Borrar" onclick="eliminar()"></td>
+            </tr>
+
+          </table>
+      </form>
+
 
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
