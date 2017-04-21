@@ -18,5 +18,13 @@
     var tasaInicial = document.getElementById("tasa").value / 100;
 
     var resultado= valor * tasaInicial / anitos;
-    document.getElementById("total").value= "$" + resultado + " pesos de intereses durante " + anitos + " años";
+    var totalAPagar=Math.floor(resultado)
+    document.getElementById("total").value= "$" + totalAPagar + " durante " + anitos + " año(s)";
+  }
+
+  function eliminar(){
+    document.getElementById("valorInicial").value="";
+    document.getElementById("anos").value="";
+    document.getElementById("tasa").value="";
+    document.getElementById("total").value="";
   }

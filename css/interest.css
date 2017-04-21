@@ -46,11 +46,11 @@ header {
   width: 36%;
   margin: auto;
   background: rgba(236, 63, 8, 0.7);
-  margin-top: 70px;
+  margin-top: 150px;
 }
 
 #contenido input {
-  font-size: 19px;
+  font-size: 32px;
   margin: auto;
   font-family: 'Play', sans-serif;
 }
@@ -59,12 +59,19 @@ header {
   padding: 5px;
 
 }
-.boton {
+
+#boton {
   text-align: center;
   padding: 50px 0 0 270px;
+  font-family: 'Play', sans-serif;
 }
+
 button{
-  padding: 13px;
+  padding: 8px;
+  color: red;
+  font-family: 'Play', sans-serif;
+  font-size: 25px;
+  background: rgba(12, 12, 11, 0.2);
 }
 
 h1{

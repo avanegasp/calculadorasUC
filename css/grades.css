@@ -57,8 +57,16 @@ table{
 
 table #valores {
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: 'Play', sans-serif;
+  color: black;
 }
 input{
   padding: 8px;
+  color: red;
+  font-family: 'Play', sans-serif;
+  font-size: 25px;
+  background: rgba(12, 12, 11, 0.2);
+
+
 }

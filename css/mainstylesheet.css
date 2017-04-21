@@ -24,17 +24,24 @@
     padding-top: 15px;
   }
 
+  h1{
+    text-align: center;
+    font-family: 'Stint Ultra Expanded', cursive;
+  }
+
   .nav {
     float: left;
   }
 
   .botones {
-    padding-top: 150px;
+    padding-top: 190px;
     text-align: center;
   }
 
   .botones a {
-    padding: 53px;
+    padding: 65px;
     margin-left: 40px;
     margin-right: 40px;
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
   }
